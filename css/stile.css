@@ -1,0 +1,261 @@
+
+body {
+    font-family: 'Itim', cursive;
+    background-color: floralwhite;
+    margin:0%;
+}
+
+img {
+    
+    margin-left: -10%;
+    
+   
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+nav a {
+    color: #5F380A;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h5 {
+    margin: 0;
+}
+
+nav a:hover {
+    color: black;
+}
+main, footer {
+    max-width: 800px;
+    margin: auto;
+}
+
+header {
+    max-width: 1200px;
+    margin: auto;
+}
+    header {
+        
+        padding:20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    
+}
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #5F380A;
+}
+main {
+    max-width: 1200px;
+    margin: auto;
+    grid-column: 1fr 1fr;
+  
+}
+section h2 {
+    margin-top: 10%;
+    margin-right: 650px;
+    
+    text-align: start;
+    color: #5F380A;
+    font-size: 80pt;
+    
+}
+section.hero {
+    padding:40px 0 40px 0;
+    border-radius: 10px 10px 0 0;
+    text-align:end;  
+}
+section.hero img {
+    max-width: 50%;
+   margin: -100% 0% -3% 50%
+}
+section.hero h2 {
+    margin-left: 5%;
+}
+section.card {
+    padding: 10px;
+    gap: 10px;  
+    text-align: right;
+    margin-top: 10%;
+}
+section.card p{
+    margin-right:750px;
+    margin-left: -7%;
+    text-align: left;
+    font-size: 30pt;
+}
+section.card img {
+    max-width: 65%;
+    margin-top: -93%;
+    margin-right: -7%;
+    margin-bottom: 3%;
+}
+section.card1 {
+    margin-top: 5%;
+}
+section.card1 img {
+    max-width: 35%;
+    margin-right: 75%;
+}
+section.card1 h3 {
+    text-align: center;
+    margin: -20% 0 0 -34%;
+    font-size: 25pt;
+    color: #5F380A;
+}
+section.card1 p{
+    margin-left: 23%;
+    margin-right: 57%;
+    font-size: 18pt;
+    text-align: center;
+}
+        
+    
+section.card2 img {
+    margin-left: 55%;
+    margin-top: -20%;
+    max-width: 35%;
+    
+}
+section.card2 h3 {
+    font-size: 25pt;
+    margin-left: 92%;
+    margin-top: -20%;
+    color: #5F380A;
+}
+section.card2 p{
+    font-size: 18pt;
+    text-align: center;
+    margin-right: -5%;
+    margin-left: 88%;
+    margin-top: -1%;
+}
+section.card3 img {
+    max-width: 35%;
+    margin-top: 2%;
+}
+section.card3 h3 {
+    font-size: 25pt;
+    margin-left: 28%;
+    margin-top: -20%;
+    color: #5F380A;
+}
+section.card3 p {
+    font-size: 18pt;
+    text-align: center;
+    margin-left: 23%;
+    margin-right: 58%;
+    margin-top: -1%;
+}
+section.card4 img {
+    max-width: 35%;
+    margin-left: 55%;
+    margin-top: -20%;
+}
+section.card4 h3 {
+    font-size: 25pt;
+    margin-left: 91%;
+    margin-top: -21%;
+    color: #5F380A;
+}
+section.card4 p{
+    font-size: 18pt;
+    text-align: center;
+    margin-right: -5%;
+    margin-left: 88%;
+    margin-top: -1%;
+}
+section.card5 img{
+    max-width: 35%;
+    margin-top: 2%;
+}
+section.card5 h3 {
+    font-size: 25pt;
+    margin-left: 26%;
+    margin-top: -20%;
+    color: #5F380A;
+}
+section.card5 p {
+    font-size: 18pt;
+    text-align: center;
+    margin-left: 23%;
+    margin-right: 58%;
+    margin-top: -1%;
+}
+section.card6 img {
+    max-width: 35%;
+    margin-left: 55%;
+    margin-top: -25%;
+}
+section.card6 h3 {
+    font-size: 25pt;
+    margin-left: 91%;
+    margin-top: -20%;
+    color: #5F380A;
+}
+section.card6 p{
+    font-size: 18pt;
+    text-align: center;
+    margin-right: -5%;
+    margin-left: 88%;
+    margin-top: -1%;
+}
+section.card7 img {
+    max-width: 35%;
+}
+section.card7 h3 {
+    font-size: 25pt;
+    margin-left: 28%;
+    margin-top: -20%;
+    color: #5F380A;
+}
+section.card7 p {
+    font-size: 18pt;
+    text-align: center;
+    margin-left: 24%;
+    margin-right: 59%;
+    margin-top: -1%;
+}
+section.card8 img {
+    max-width: 35%;
+    margin-left: 55%;
+    margin-top: -25%;
+}
+section.card8 h3 {
+    font-size: 25pt;
+    margin-left: 91%;
+    margin-top: -20%;
+    color: #5F380A;
+}
+section.card8 p{
+    font-size: 18pt;
+    text-align: center;
+    margin-right: -5%;
+    margin-left: 88%;
+    margin-top: -1%;
+}
+footer {
+    margin-top: 7%;
+}
+footer img {
+    max-width: 70%;
+    margin-left: 50%;
+}
+footer p {
+    font-size: 35pt;
+    text-align: left;
+    margin-left: -25%;
+    margin-right: 60%;
+    margin-top: -50%;
+    color: #5F380A;
+}
