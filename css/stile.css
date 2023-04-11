@@ -1,11 +1,11 @@
 
 body {
     font-family: 'Itim', cursive;
-    background-color: floralwhite;
+    background-color: rgb(252, 244, 230);
     margin:0%;
 }
 img {
-    max-width: 50%;
+    max-width:50%;
     height: auto;
 }
 header a {
