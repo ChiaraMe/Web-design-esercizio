@@ -5,7 +5,7 @@ body {
     margin:0%;
 }
 img {
-    max-width:50%;
+    max-width:100%;
     height: auto;
 }
 header a {
@@ -42,10 +42,11 @@ header nav ul {
 }
 .hero {
    display: flex;
-   margin-left: 3%;
+   justify-content: space-evenly;
+   padding-left: 20px;
    align-items: center;
-   margin-right: 3%;
-   margin-top: 5%;
+   padding-right: 20px;
+   padding-top: 60px;
    gap: 10%;
 }
 .hero h2 {
@@ -59,14 +60,19 @@ color: #5F380A;
 }
 .card {
     display: flex;
-    margin-left: 5%;
-    margin-top: 8%;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
     align-items: center;
     gap: 6%;
 }
 .card img {
-max-width: 50%;
-margin-right: 0%
+    width: fit-content;
+    max-width: 50%;
+    height: auto;
+
+
 }
 .card p {
  margin: 0;
@@ -75,15 +81,19 @@ font-size: 20pt;
 text-align: left;
 line-height: auto;
 }
-.card1  {
+.card1   {
     display: flex;
+    justify-content: space-between;
+     margin: 0%;
+    padding-right: 20px;
+     padding-top: 100px;
      
-    gap: 2px;
-     margin-top: 8%;
 
 }
 .card1 img  {
-    max-width: 35%;
+    max-width: 90%;
+    width: fit-content;
+    height: auto;
    
 }
 .card1 p {
@@ -94,17 +104,29 @@ line-height: auto;
     font-size: 17pt;
     color: #5F380A;
 }
+div.inghilterrat {
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 10px;
 
-.card2  {
+}
+div.indiat {
+    text-align: center;
+}
+
+.card2   {
     display: flex;
-
+    justify-content: space-between;
+     margin: 0%;
+    padding-right: 20px;
+     padding-top: 100px;
      
-    gap: 2px;
-     margin-top: 8%;
 
 }
 .card2 img  {
-    max-width: 35%;
+    max-width: 90%;
+    width: fit-content;
+    height: auto;
    
 }
 .card2 p {
@@ -115,16 +137,29 @@ line-height: auto;
     font-size: 17pt;
     color: #5F380A;
 }
+div.coreat {
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 10px;
 
-.card3  {
+}
+div.messicot {
+    text-align: center;
+}
+
+.card3   {
     display: flex;
+    justify-content: space-between;
+     margin: 0%;
+    padding-right: 20px;
+     padding-top: 100px;
      
-    gap: 2px;
-     margin-top: 8%;
 
 }
 .card3 img  {
-    max-width: 35%;
+    max-width: 90%;
+    width: fit-content;
+    height: auto;
    
 }
 .card3 p {
@@ -135,30 +170,47 @@ line-height: auto;
     font-size: 17pt;
     color: #5F380A;
 }
+div.maroccot {
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 10px;
 
-.card4  {
+}
+div.hawaiit {
+    text-align: center;
+}
+
+.card4   {
     display: flex;
-    
+    justify-content: space-between;
+     margin: 0%;
+    padding-right: 20px;
+     padding-top: 100px;
      
-    gap: 2px;
-     margin-top: 8%;
 
 }
 .card4 img  {
-    max-width: 35%;
-    
+    max-width: 90%;
+    width: fit-content;
+    height: auto;
    
 }
 .card4 p {
     font-size: 15pt;
     text-align: center;
-    
-    
 }
 .card4 h3 {
     font-size: 17pt;
     color: #5F380A;
-    
+}
+div.sveziat {
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 10px;
+
+}
+div.franciat {
+    text-align: center;
 }
 
 
@@ -166,9 +218,10 @@ line-height: auto;
 footer {
     display: flex;
     align-items: center;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 5%;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
     
 }
 footer p {
@@ -177,4 +230,6 @@ footer p {
 }
 footer img {
     max-width: 50%;
+    width: fit-content;
+    height: auto;
 }
